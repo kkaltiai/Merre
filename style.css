@@ -1,0 +1,462 @@
+/*style.css*/
+body {
+	background-color: 	#cbcfb2; /*#66CDAA; #CBCFD2 EDDCE4 */
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0; 
+	padding: 0;
+	font-family: "Courier new", "Times New Roman", Times, serif;
+}
+p {
+	font-family: "Courier new", "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+.imgoikealle {
+	margin: 0;
+	padding: 10px;
+	float: right;
+}
+.kategorialinkkihr{
+	margin: 0;
+	padding: 0px;
+	margin-bottom: 2px;
+	width: 790px;	/*koko muutos: */
+	display: block;
+	color: A45076;
+    border-style: solid;
+    border-width: 1px;
+	border-color: #A45076;
+}
+.kategorialinkki {
+	margin: 0px;
+	padding: 0px;
+	padding-bottom: 2px;
+	color: 	#4E5A65;
+	text-align: left;
+	font-size: 20px;
+	text-decoration:none; 
+}
+.kategorialinkki a{
+	margin:0;
+	/*margin-top: 15px;		*/
+	padding: 2px;
+	padding-left: 4px;
+	padding-right: 4px;
+	border-style: solid;
+    border-width: 2px;
+	border-color: #A45076;		/*A45076*/
+	color: #000;
+	background-color: #F0E68C;	/*fff		#EDDCE4*/
+}
+.kategorialinkki a:hover{
+	background-color: #D1EEEE;	
+	border-color: #A45076;
+}
+/*virheilmoitus käyttäjälle*/
+.tietokantavirheilmoitus {
+	margin-top: 20px;
+}
+/*nettisivun leveys on 960px*/
+#wrapper {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 14px;
+	overflow: auto;	
+}
+/*tähän tulee yläpalkki mainos*/
+.ylämainos {
+	float: left;
+	width: 810px;	/*koko muutos: 960*/
+	margin-bottom: 7px;
+}
+/*sisältää navigoinnin*/
+header {
+	margin: 0px;
+	background-color: 	#cbcfb2;	/* f2f2f2  #fff   #CBCFD2	EDDCE4*/
+	width: 810px;	/*koko muutos: 960*/
+	float: left;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;	
+	/*	overflow: auto;		ottaa muuten dropdown menun headerin vaikutusalaan*/
+	display: inline-block;
+}
+header hr {
+	display: block;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 0px;
+	width: 790px;	/*koko muutos: 940*/
+	color: black;
+    border-style: solid;
+    border-width: 1px;
+	border-color: #B7BABD;
+}
+header h1 {
+	margin: 0;
+	padding: 0;
+	padding-top: 15px;
+	padding-left: 15px;
+	color: #708090;
+	float: left;	
+}	
+header h2 {
+	margin: 0;
+	padding: 0;
+	padding-top: 15px;
+	padding-right: 15px;
+	color: #708090;
+	float: right;
+}
+.etusivulinkki {
+	color: #708090;
+	text-align: left;
+	text-decoration: none;
+}	
+.otsikko{
+	color: #708090;
+	font-size: 65px;
+	font-weight: bold;
+	position: absolute;
+	top:-82px;
+	left:625px;
+	z-index: 10;
+	font-family: "Times New Roman", Times, serif;	
+}
+.väliotsikko{
+	font-family: "Times New Roman", Times, serif;	
+	color: #4E5A65;
+	font-size: 26px;
+}
+.nacontainer{
+	width: 810px;	/*koko muutos: 960*/
+	/*height:50px;*/
+	position: relative;
+}
+nav {
+	width: 810px;	/*koko muutos: 960*/
+	/*height:50px;*/
+	position: relative;
+}
+/*menu*/
+.na{
+	margin: 0;
+	margin-left: 20px;
+	padding: 0;
+	margin-top: 15px;
+	width: 790px;	/*koko muutos: 940*/
+	float:left;
+	font-family: Arial;
+	font-size: 18px;			
+}
+.na ul{
+	margin: 0;
+	padding: 0;
+	width: 790px;	/*koko muutos: 940*/
+	line-height: 30px;
+	list-style: none;
+	display: inline;
+}			
+.na ul li{
+	margin: 0;
+	margin-right: 5px;
+	padding: 0;
+	padding-top: 5px;			
+	border-top-left-radius: 13px;
+	border-top-right-radius: 13px;
+	float: left;
+	background-color: #A45076;									
+}
+.na ul li:hover{
+	background-color: #bf5d8a;			
+}
+.na ul li:hover ul{
+	display: inline;
+}
+.na ul li a{
+	margin:0;
+	padding:0;
+	text-decoration: none;
+	height: 30px;
+	width: 150px;
+	display: block;
+	text-align: center;
+	color: #FFE7FF;
+	font-family: Arial;
+	font-size: 18px; 	
+}
+.na ul ul {
+	margin:0;
+	padding:0;
+	top: 50px;
+	left: 20px;
+	position: absolute;
+	opacity: 0.98;
+	display: none;
+}
+.na ul ul li {
+	margin: 0;
+	padding: 0;
+	border-radius: 0;				
+	background: #bf5d8a;				
+	float:left;
+}
+.na ul ul li:hover a{
+	color: #000;		
+	background: #bf5d8a;							
+}
+.na ul li img{
+	vertical-align: middle;
+	padding-left: 5px;
+}
+/*tähän tulee mainoksia*/
+/*poistuu käytöstä */
+aside{
+	width: 143px;	/*x=960-merresisältö*/
+	/*margin-top: 56px;*/
+	margin-left: 7px;
+	padding: 0;
+	float: right;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-color: white;
+}
+#asideOtsikko{
+	color: #FFE7FF;
+	font-family: Arial;
+	font-size: 18px; 
+	font-weight: normal;
+	text-align: center; 
+	width: 143px;
+	margin: 0px;
+	margin-left: 7px;
+	padding: 0;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	float: right;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	background-color: #A45076;
+		
+}
+.asideimgcontainer{
+	padding: 7.5px;
+    width: 128px;		
+    height: 128px;  	/* necessary, besides line-height, if images are taller than it */
+    line-height: 128px;  	/* must be equal to line-height */
+    text-align: center;
+	font-size: 0;
+	float: left;
+}
+.asideimgcontainer img {
+    vertical-align: middle;			
+	max-width: 100%; 
+	max-height: 100%;  /* force scaling down large images */		
+}
+#asideLink {}
+#asideImg {}
+/*sisältää ekortteja kategoriattain*/
+section {
+	float: left;
+	width: 800px;	/*koko muutos: 950*/
+	padding-left: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #fff;	/*f2f2f2*/
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;	
+}
+section h3 {
+	padding-top: 5px;
+	margin-bottom: 2px;
+}
+/*section classes*/
+/*width 255px*/
+/*käytetään sivuilla index.php ja kategoria.php*/
+.imgcontainer {
+	padding: 5px; 
+	padding-right: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+    width: 182.5px;		/*koko muutos: 217.5*/
+    height: 182.5px;  	/* necessary, besides line-height, if images are taller than it */
+    line-height: 182.5px;  	/* must be equal to line-height */
+    text-align: center;
+/*	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	background-color: red;*/
+	font-size: 0;
+	float: left;
+}
+.imgcontainer img {
+    vertical-align: middle;			
+	max-width: 100%; 
+	max-height: 100%;  /* force scaling down large images */
+	box-shadow: 5px 5px 3px #888888;		
+}
+.text_line {
+    clear: both;
+}
+/*merrelomake.php section classes and elements*/
+.lomakesectioncontainer{
+	text-align:center;
+	vertical-align: middle;
+}
+.lomakeesikatseluviesti {
+	margin:0;
+	/*margin-left: 40px;*/
+	padding: 0;
+	width: 520px;
+	text-align: left;
+	float:left;	
+}
+.lomakecontainer{
+	padding:0;
+	margin: 0;
+	margin-bottom: 10px;	
+    width: 520px;	
+    height: 450px;  /* necessary, besides line-height, if images are taller than it */
+    line-height: 450px;  /* must be equal to line-height */
+    text-align: center;
+/*	border-style: solid;
+	border-width: 1px;
+	border-color: black;*/
+	/*background-color: red;*/
+	float:center;
+}
+.lomakecontainer img {
+	margin:0;
+	padding:0;
+    vertical-align: middle;			
+	max-width: 100%; 
+	max-height: 100%;  /* force scaling down large images */
+	box-shadow: 10px 10px 5px #888888;	
+}
+.kortinviesti{
+	/*font-family: "Times New Roman", Times, serif;*/
+	font-family: "Courier new", "Times New Roman", Times, serif;
+	margin:0;
+	padding: 10px;
+	font-size: 17px;
+	font-weight:bold;
+	color: #708090; 
+	text-align:left;
+	line-height:initial;
+	vertical-align: middle;
+}
+.tervehdys {
+	/*font-family: "Times New Roman", Times, serif;*/
+	padding-top:20px;
+	font-size: 18px;
+	font-weight:bold;
+	color: #708090;
+}
+.error {
+	font-weight: normal;
+	color: red;
+}	
+/*width:257*/
+form {
+	margin-right: 15px;
+	position: relative;
+	width: 230px;
+	border-radius: 12px;
+	margin-top: 30px;
+	padding-top: 7px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #C0C0C0;
+	vertical-align: text-bottom;
+	display: inline-block;
+	float: right;
+	background-color:#EAEAEA;
+}	
+input {
+	width:200px;
+	border-radius: 2px;
+}	
+input[type=submit] {
+	margin:auto;
+	width:90px;
+	height:30px;
+	bottom:25px;
+	background:#A45076;
+	color: #FFE7FF;	
+	border-radius: 15px;
+	vertical-align: text-bottom;
+	display:inline-block;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #A45076;	
+}	
+input[type=submit]:hover {
+	background:#bf5d8a;
+	color:#FFE7FF;
+}	
+textarea {
+	width:220px;
+	border-radius: 2px;
+	vertical-align: text-bottom;
+}
+/*merreekortti.php section luokat ja elementit*/
+.ekorttiesikatseluviesti {
+	margin:auto;
+	padding: 0;
+	width: 650px;
+	text-align: left;
+}
+.ekortticontainer{
+	padding: 0;
+	margin: 0;
+	margin-bottom: 10px;	
+    width: 650px;	
+    height: 500px;  /* necessary, besides line-height, if images are taller than it */
+    line-height: 500px;  /* must be equal to line-height */
+    text-align: center;
+}
+.ekortticontainer img {
+	margin:0;
+	padding:0;
+    vertical-align: middle;			
+	max-width: 100%; 
+	max-height: 100%;  /* force scaling down large images */
+	box-shadow: 10px 10px 5px #888888;	
+}
+/*tänne tulee yhteistiedot*/
+footer {
+	background-color: #fff;
+	width: 810px;	/*koko muutos: 960*/
+	float: left;
+	margin-top: 10px;
+	border-radius: 5px;
+	text-align: center;
+}
+footer p {
+	padding: 0;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	margin: 0;
+	display: inline-block;
+}
+.share {
+	padding: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 0px;
+}
+.share {
+	font-size: 1px;
+}
+.share span {
+	display: inline-block;
+	width: 110px;
+}
+
